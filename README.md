@@ -1,4 +1,4 @@
-# Unity Serializable Dictionary
+# Color Picker UI control
 
 This repository provides an implementation of a color selection control for unity.  It uses the world-canvas for placement and sizing.
 
