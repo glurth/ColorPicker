@@ -1,0 +1,12 @@
+{
+  "name": "com.eye.colorpicker",
+  "version": "1.0.0",
+  "displayName": "ColorPicker",
+  "description": "ColorPicker control for unity world-space canvas",
+  "unity": "2022.3",
+  "dependencies": {},
+  "author": {
+    "name": "Glurth"
+  },
+  "hideInEditor": "false"
+}
