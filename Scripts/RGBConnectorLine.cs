@@ -36,16 +36,20 @@ Quad extends from the sphere to the corresponding RGB volume face.";
             picker = GetComponentInParent<RGBColorPicker>();
         }
 
-        private void Awake()
+        private void Init()
         {
+            if (propertyBlock != null) return;
             meshRenderer = GetComponent<Renderer>();
             propertyBlock = new MaterialPropertyBlock();
             channel = RGBVolume.GetChannelForDirection(picker.AxisMapping, transform.right);
         }
-
+        private void Awake()
+        {
+            Init();
+        }
         public void OnColorChanged(RGBColor color)
         {
-          //  if (propertyBlock == null) Awake();
+            if (propertyBlock == null) Init();
 
             Vector3 localPosition =
                 RGBVolume.ColorToLocalPosition(

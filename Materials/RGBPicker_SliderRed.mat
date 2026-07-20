@@ -29,8 +29,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FixedValue0: 0.6907471
-    - _FixedValue1: 0.2716515
+    - _FixedValue0: 0
+    - _FixedValue1: 0
     - _UnfixedChannel: 0
     m_Colors: []
   m_BuildTextureStacks: []
